@@ -3,12 +3,13 @@ body {
   color: #2e2f42;
 }
 
-.header-menu-list {
+.header-logo-items {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #4d5ae5;
+  list-style: none;
 }
 .header-contact-list {
   font-weight: 400;
@@ -16,6 +17,7 @@ body {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
+  list-style: none;
 }
 .header-logo {
   font-weight: 700;
