@@ -3,6 +3,32 @@ body {
   color: #2e2f42;
 }
 
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .header {
   background: #fff;
 }
@@ -32,7 +58,6 @@ body {
 }
 
 .header-list {
-  list-style: none;
 }
 
 .header-link {
@@ -50,7 +75,6 @@ body {
 }
 
 .header-contact-list {
-  list-style: none;
 }
 
 .header-contact-link {
@@ -59,6 +83,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.header-contact-link:hover,
+.header-contact-link:focus {
+  color: #404bbf;
 }
 
 .hero {
@@ -89,7 +118,6 @@ body {
 }
 
 .advantages-list {
-  list-style: none;
 }
 
 .advantages-title {
@@ -125,7 +153,6 @@ body {
 }
 
 .team-list {
-  list-style: none;
 }
 
 .team-image {
@@ -166,7 +193,6 @@ body {
 }
 
 .portfolio-list {
-  list-style: none;
 }
 
 .portfolio-images {
