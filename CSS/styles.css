@@ -33,9 +33,6 @@ button {
   background: #fff;
 }
 
-.header-navigation {
-}
-
 .header-logo {
   font-weight: 700;
   font-size: 18px;
@@ -54,27 +51,12 @@ button {
   color: #434455;
 }
 
-.header-logo-items {
-}
-
-.header-list {
-}
-
 .header-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-}
-
-.header-contact {
-}
-
-.header-contact-item {
-}
-
-.header-contact-list {
 }
 
 .header-contact-link {
@@ -114,12 +96,6 @@ button {
   background: #fff;
 }
 
-.advantages-items {
-}
-
-.advantages-list {
-}
-
 .advantages-title {
   font-weight: 500;
   font-size: 20px;
@@ -147,15 +123,6 @@ button {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
-}
-
-.team-items {
-}
-
-.team-list {
-}
-
-.team-image {
 }
 
 .team-title-pers {
@@ -189,15 +156,6 @@ button {
   color: #2e2f42;
 }
 
-.portfolio-items {
-}
-
-.portfolio-list {
-}
-
-.portfolio-images {
-}
-
 .portfolio-title-second {
   font-weight: 500;
   font-size: 20px;
@@ -215,9 +173,6 @@ button {
 }
 .footer {
   background: #2e2f42;
-}
-
-.footer-link {
 }
 
 .footer-logo {
