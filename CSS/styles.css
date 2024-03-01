@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 ul {
@@ -16,12 +17,8 @@ button {
 }
 
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
   margin: -1px;
   border: 0;
-  padding: 0;
 
   white-space: nowrap;
   clip-path: inset(100%);
@@ -39,6 +36,7 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
   color: #4d5ae5;
 }
 
@@ -48,7 +46,7 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #434455;
+  color: #2e2f42;
 }
 
 .header-link {
@@ -59,6 +57,10 @@ button {
   color: #2e2f42;
 }
 
+.header-contact {
+  font-style: normal;
+}
+
 .header-contact-link {
   font-weight: 400;
   font-size: 16px;
@@ -67,7 +69,9 @@ button {
   color: #434455;
 }
 
-.header-contact-link:hover,
+.header-contact-link:hover {
+  color: #404bbf;
+}
 .header-contact-link:focus {
   color: #404bbf;
 }
@@ -79,7 +83,7 @@ button {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.1;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -87,11 +91,21 @@ button {
 
 .hero-order-btn {
   font-weight: 500;
+  background-color: #4d5ae5;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
 }
+
+.hero-order-btn:hover {
+  background-color: #404bbf;
+}
+
+.hero-order-btn:focus {
+  background-color: #404bbf;
+}
+
 .advantages {
   background: #fff;
 }
@@ -156,6 +170,10 @@ button {
   color: #2e2f42;
 }
 
+.portfolio-items {
+  background-color: #ffffff;
+}
+
 .portfolio-title-second {
   font-weight: 500;
   font-size: 20px;
@@ -199,4 +217,8 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
 }
